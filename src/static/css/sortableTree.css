@@ -1,0 +1,45 @@
+.sortableTree{
+   width:100%;
+   background:#f9f9f9;
+}
+.sortableTree .ReactVirtualized__Grid {
+    padding: 0 0 60px 20px;
+    overflow-y:auto;
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node{
+    height: 30px;
+    padding-bottom: 30px;
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node .rstcustom__rowWrapper{
+    padding: 10px;
+    height: 30px;
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node .rstcustom__row{
+
+    height:30px;
+    width:160px;
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node .rstcustom__expandButton{
+
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node .rstcustom__row .rstcustom__rowContents:hover{
+//background: #daecff;
+    box-shadow: none;
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node .rstcustom__row .rstcustom__rowContents{
+    height:36px;
+    border-radius:4px;
+    left: 10px;
+    top: 8px;
+    border: none;
+    background: #fafafa;
+}
+.sortableTree .ReactVirtualized__Grid .rstcustom__node .rstcustom__rowLabel{
+//border:1px solid red;
+    line-height: 40px;
+    height:40px;
+    width:160px;
+    font-size: 14px;
+    margin-left: -30px;
+    margin-top: -4px;
+}
